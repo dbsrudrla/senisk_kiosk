@@ -1,0 +1,10 @@
+/* payment */
+.call {
+    flex-direction: column;
+}
+
+.rotateArrow > img {
+    width: 18rem;
+    height: 18rem;
+    object-fit: cover;
+}
