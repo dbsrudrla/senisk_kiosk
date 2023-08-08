@@ -1,38 +1,26 @@
 .page9 {
     width: 100%;
-    overflow-y: hidden;
-    max-height: 40.3rem;
+    display: inline-block;
 }
 
-.selectmenuWrap {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.menu_bar {
+    position: absolute;
+    transform: translate(0, -774%);
+}
+
+.text_left {
+    text-align: left;
+}
+
+.textWrap {
+    position: absolute;
+    left: 10%;
 }
 
 .selectMenu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 24rem;
-    height: 10rem;
+    height: 8rem;
     margin: 0.8rem 0.5rem 0 0.5rem ;
     background-color: #E8E8E8;
-}
-
-.selectMenu > img {
-    width: 10rem;
-    height: 9rem;
-    border-radius: 1.5rem;
-    object-fit: cover;
-}
-
-.menu_text {
-    display: inline-block;
-    width: 10rem;
-    margin-left: 1rem;
-    font-size: 1.1rem;
 }
 
 /* bottomWrap */
